@@ -27,6 +27,9 @@ nav ul .nav_link{
     color: #fff;
     display: inline-block;
 }
+nav ul .active .nav_link{
+    background-color: red;
+}
 
 .wrapper{
     display: flex;

@@ -15,6 +15,9 @@ window.addEventListener("scroll", function(){
 
 
 
-$(".nav_link").click(function(){
-    $(this).addClass("active").siblings().removeClass("active")
-})
+
+$(function(){
+   $('.nav_item').on('click',function(){
+       $(this).addClass('active').siblings().removeClass('active')
+   })
+});
